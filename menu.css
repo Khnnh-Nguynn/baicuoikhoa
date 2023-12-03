@@ -1,0 +1,90 @@
+.header{
+    background-color: bisque;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKPgDHctZ-lwQrgmbbkhIQ8mT-r7R2iAR9Nw&usqp=CAU");
+    height: 200px;
+    width: 80%;
+    background-size: cover;
+    display: flex;
+    
+}
+.banner_image{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.head{
+    margin-top: 70px;
+    margin-left: 100px;
+    text-align: center;
+}
+.head .span1{
+    color: blue;
+    font-size: 20px;
+    font-weight: 900;
+}
+.head .span2{
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+}
+.head a{
+    text-decoration: none;
+}
+.school_image{
+    position: relative;
+    left: 300px;
+}
+.nav_bar{
+    background-color: rgb(182, 61, 39);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+.nav_bar span{
+    color: white;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: small;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav_bar a{
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav_bar span:hover{
+    color: rgb(182, 61, 39);
+}
+.nav_bar a:hover{
+    background-color: bisque;
+}
+.nav_bar i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.side_bar{
+    position: relative;
+    right: 100px;
+}
+.bars{
+    position: sticky;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,51 @@
+.side{
+    margin-left: 5px;
+}
+.side h3{
+    color: rgb(182, 61, 39);
+    border-left: 5px solid rgb(182, 61, 39);
+    border-bottom: 2px solid rgb(182, 61, 39);
+    padding: 10px;
+    box-shadow: 0px -15px 10px rgb(201, 199, 199) inset;
+    margin-bottom: 0;
+}
+.side1{
+    width: 300px;
+    height: 500px;
+    overflow: auto;
+    border: 1px solid grey;
+}
+.side1 p{
+    border-top: 1px solid grey;
+    padding: 10px;
+}
+.side2{
+    border: 1px solid grey;
+}
+.side2 .gmtb img{
+    width: 150px;
+    height: 80px;
+}
+.gmtb{
+    border-top: 1px solid grey;
+    padding: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+.gmtb p{
+    padding-top: 10px;
+    margin-top: 0;
+    font-weight: 600;
+    padding-left: 10px;
+}
+footer{
+    background-color:rgb(182, 61, 39) ;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.footer-content{
+    padding-top: 30px;
+    margin-top: 50px;
+}
